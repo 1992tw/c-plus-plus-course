@@ -1,0 +1,176 @@
+{
+  "id": "68704172915c49ea1a59bdf0",
+  "lessonNumber": 5,
+  "title": "Data Structures and Algorithms in C++",
+  "status": "complete",
+  "assignment": {
+    "title": "Implement Basic Data Structures in C++",
+    "objective": "Gain hands-on experience in implementing some basic data structures such as stack and queue in C++.",
+    "expectedCapabilities": [
+      "Implement stack using arrays",
+      "Implement queue using linked lists",
+      "Understand potential practical applications"
+    ],
+    "submissionInstructions": "Submit the source code along with screenshots of the output for each data structure operation.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Write and Test Stack Operations",
+        "description": "Implement and verify stack operations such as push, pop, and display using arrays.",
+        "codeExample": "// Code for push, pop functions",
+        "_id": "68704550915c49ea1a59be63"
+      },
+      {
+        "taskNumber": 2,
+        "title": "Write and Test Queue Operations",
+        "description": "Implement and verify queue operations like enQueue, deQueue, and display using linked lists.",
+        "codeExample": "// Code for enQueue, deQueue functions",
+        "_id": "68704550915c49ea1a59be64"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Implement Stack Using Array",
+            "description": "Develop a stack data structure using an array in C++ and test its primary operations like push and pop.",
+            "codeExample": "class Stack { int arr[MAX]; int top; /* Implement push, pop */ };",
+            "_id": "68704550915c49ea1a59be60"
+          }
+        ],
+        "_id": "68704550915c49ea1a59be5f"
+      },
+      {
+        "partNumber": 2,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Implement Queue Using Linked List",
+            "description": "Create a queue data structure using a linked list in C++ and implement operations such as enQueue and deQueue.",
+            "codeExample": "struct Node { int data; Node* next; }; class Queue { Node *front, *rear; /* Implement enQueue, deQueue */ };",
+            "_id": "68704550915c49ea1a59be62"
+          }
+        ],
+        "_id": "68704550915c49ea1a59be61"
+      }
+    ],
+    "checklist": [
+      "Implemented Stack with push, pop operations",
+      "Implemented Queue with enQueue, deQueue operations",
+      "Compiled and ran the code",
+      "Verified operations through testing"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What is the key difference between Stack and Queue?",
+        "options": [
+          "Stack uses LIFO, Queue uses FIFO",
+          "Both use FIFO",
+          "Both use LIFO"
+        ],
+        "answer": "Stack uses LIFO, Queue uses FIFO",
+        "_id": "68704550915c49ea1a59be5d"
+      },
+      {
+        "question": "Which data structure is best for a bread-first search algorithm?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Array"
+        ],
+        "answer": "Queue",
+        "_id": "68704550915c49ea1a59be5e"
+      }
+    ]
+  },
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Data Structures",
+      "content": "Data structures are a way of organizing and storing data so that they can be accessed and worked with efficiently. Common data structures in C++ include arrays, linked lists, stacks, queues, trees, and graphs.",
+      "videoUrl": "http://video.com/introToDataStructures",
+      "codeExamples": [
+        "int myArray[10];",
+        "struct Node { int data; Node* next; };"
+      ],
+      "externalLinks": [
+        "http://cplusplus.com/doc/tutorial/arrays/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is an example of a data structure?",
+          "options": [
+            "Integer",
+            "Array",
+            "Function"
+          ],
+          "answer": "Array",
+          "_id": "68704550915c49ea1a59be58"
+        }
+      ],
+      "_id": "68704550915c49ea1a59be57"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Algorithms and Their Analysis",
+      "content": "An algorithm is a step-by-step procedure for solving a problem. Analyzing algorithms involves determining the efficiency and performance, often through time and space complexity analysis. Big O notation is commonly used as a measure of complexity.",
+      "videoUrl": "http://video.com/algorithmAnalysis",
+      "codeExamples": [
+        "for(int i = 0; i < n; i++) { /*...*/} // O(n)",
+        "for(int i = 0; i < n; i++) { for(int j = 0; j < m; j++) { /*...*/ } } // O(n*m)"
+      ],
+      "externalLinks": [
+        "https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/"
+      ],
+      "quizzes": [
+        {
+          "question": "What does Big O notation represent?",
+          "options": [
+            "The speed of code execution",
+            "The efficiency of algorithms",
+            "The amount of data in arrays"
+          ],
+          "answer": "The efficiency of algorithms",
+          "_id": "68704550915c49ea1a59be5a"
+        }
+      ],
+      "_id": "68704550915c49ea1a59be59"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Commonly Used Data Structures and Their Operations",
+      "content": "Explore commonly used data structures like stacks, queues, trees, and graphs. Learn how these structures function and how to implement basic operations on them in C++, such as insertion, deletion, and traversal.",
+      "videoUrl": "http://video.com/commonlyUsedDataStructures",
+      "codeExamples": [
+        "struct Stack { int arr[MAX]; int top; };",
+        "class Queue { int front, rear; int size; int arr[MAX]; };"
+      ],
+      "externalLinks": [
+        "https://www.tutorialspoint.com/data_structures_algorithms/"
+      ],
+      "quizzes": [
+        {
+          "question": "Which of these is a linear data structure?",
+          "options": [
+            "Stack",
+            "Graph",
+            "Binary Tree"
+          ],
+          "answer": "Stack",
+          "_id": "68704550915c49ea1a59be5c"
+        }
+      ],
+      "_id": "68704550915c49ea1a59be5b"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/advancedDataStructures"
+  ],
+  "references": [
+    "https://www.cplusplus.com/doc/tutorial/linkedlist/",
+    "https://en.wikipedia.org/wiki/Data_structure"
+  ],
+  "podcastUrl": null
+}
