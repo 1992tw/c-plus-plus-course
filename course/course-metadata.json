@@ -1,0 +1,36 @@
+{
+  "id": "68704172915c49ea1a59bde6",
+  "title": "C plus plus course",
+  "description": "desc",
+  "learningObjectives": [
+    "Understand the basics of C++",
+    "Develop core programming skills in C++",
+    "Implement Object-Oriented Programming in C++",
+    "Learn about data structures and algorithms in C++",
+    "Develop a complete software using C++"
+  ],
+  "finalProjectDetails": {
+    "overview": "For the final project, students are asked to develop a complete software using the skills and knowledge gained during the course. The software could be a game, a business application, or anything else that interests the student and demonstrates their C++ programming skills.",
+    "planningResources": [
+      "C++ references",
+      "C++ standard library documentation",
+      "Lesson notes and handouts"
+    ],
+    "submissionInstructions": "Submit the source code for your software as a single .cpp file. Include comments within your code to explain your logic. Do not use any external libraries or resources not discussed in the course. Projects will be evaluated based on their functionality, complexity, clarity of code, and commenting.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "_id": "6800a73454438765dcfd5e07",
+    "name": "Tammam Alwafai",
+    "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "remoteGithubUrl": null,
+  "createdAt": "2025-07-10T22:40:50.559Z",
+  "updatedAt": "2025-07-10T22:40:50.559Z"
+}
