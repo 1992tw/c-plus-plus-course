@@ -21,16 +21,11 @@
       ""
     ]
   },
-  "createdBy": {
-    "_id": "6800a73454438765dcfd5e07",
-    "name": "Tammam Alwafai",
-    "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
-    "githubUsername": "1992tw"
-  },
+  "createdBy": "6800a73454438765dcfd5e07",
   "contributors": [],
   "status": "pending",
   "originalGithubUrl": null,
-  "remoteGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/1992tw/c-plus-plus-course",
   "createdAt": "2025-07-10T22:40:50.559Z",
-  "updatedAt": "2025-07-10T22:40:50.559Z"
+  "updatedAt": "2025-07-10T23:07:28.069Z"
 }

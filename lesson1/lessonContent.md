@@ -1,4 +1,4 @@
-# Functions in C++
+# Introduction to C++
 
 ## Overview
 

@@ -32,5 +32,5 @@ Course contributors will be listed here.
 
 ---
 
-*Created by: Tammam Alwafai*
+*Created by: Unknown*
 *Last updated: 7/10/2025*
