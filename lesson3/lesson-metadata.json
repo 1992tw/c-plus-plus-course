@@ -1,17 +1,194 @@
 {
-  "id": "68704172915c49ea1a59bdec",
-  "lessonNumber": 1,
-  "title": "Introduction to C++",
-  "status": "pending",
+  "id": "68704172915c49ea1a59bdee",
+  "lessonNumber": 3,
+  "title": "Functions in C++",
+  "status": "complete",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Implement Functions in C++",
+    "objective": "Apply your knowledge of functions to implement and use them in a simple C++ program.",
+    "expectedCapabilities": [
+      "Define and call functions",
+      "Use parameters and return values",
+      "Write a functional C++ program utilizing functions"
+    ],
+    "submissionInstructions": "Submit the .cpp file containing your program and a screenshot of the program output.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Write a program using functions",
+        "description": "Create a C++ program that defines and uses at least two functions.",
+        "codeExample": "N/A",
+        "_id": "68704c733731eb1c01c9a76a"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Define a function",
+            "description": "Write a function in C++ that computes the sum of two integers and returns the result.",
+            "codeExample": "int add(int a, int b) { return a + b; }",
+            "_id": "68704c733731eb1c01c9a768"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Call the function",
+            "description": "Use the previously defined function in a C++ program to compute the sum of two numbers provided by the user.",
+            "codeExample": "int main() { int result = add(5, 7); cout << \"Sum: \" << result; return 0; }",
+            "_id": "68704c733731eb1c01c9a769"
+          }
+        ],
+        "_id": "68704c733731eb1c01c9a767"
+      }
+    ],
+    "checklist": [
+      "Function defined and used",
+      "Void and non-void functions implemented",
+      "Program compiles and runs",
+      "Output verified"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What does a function return type signify?",
+        "options": [
+          "Type of parameters it accepts",
+          "Type of value it returns to the caller",
+          "Type of arguments it processes"
+        ],
+        "answer": "Type of value it returns to the caller",
+        "_id": "68704c733731eb1c01c9a764"
+      },
+      {
+        "question": "Can a void function use return statements?",
+        "options": [
+          "Yes, to return specific values",
+          "No, it cannot contain return statements",
+          "Yes, but only to exit the function early"
+        ],
+        "answer": "Yes, but only to exit the function early",
+        "_id": "68704c733731eb1c01c9a765"
+      },
+      {
+        "question": "How do you call a function in C++?",
+        "options": [
+          "Define it again",
+          "Use its name followed by parentheses",
+          "Invoke run() method"
+        ],
+        "answer": "Use its name followed by parentheses",
+        "_id": "68704c733731eb1c01c9a766"
+      }
+    ]
   },
-  "subsections": [],
-  "supplementalVideos": [],
-  "podcastUrl": null
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Functions in C++",
+      "content": "Functions are fundamental building blocks in C++. They allow you to break down complex problems into smaller, manageable tasks. Each function performs a specific task, enhancing code clarity and reusability.",
+      "videoUrl": "http://video.com/introToFunctions",
+      "codeExamples": [
+        "void myFunction() { // Code to execute }"
+      ],
+      "externalLinks": [
+        "https://www.learncpp.com/cpp-tutorial/introduction-to-functions/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is the primary purpose of using functions in programming?",
+          "options": [
+            "Enhance code performance",
+            "Break down tasks for clarity and reusability",
+            "Conditionally execute blocks of code"
+          ],
+          "answer": "Break down tasks for clarity and reusability",
+          "_id": "68704c733731eb1c01c9a75d"
+        }
+      ],
+      "_id": "68704c733731eb1c01c9a75c"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Defining and Calling Functions",
+      "content": "Learn how to define a function in C++ using the correct syntax and call it within your programs. A function definition includes the function return type, name, and parameters, if any.",
+      "videoUrl": "http://video.com/definingFunctions",
+      "codeExamples": [
+        "int add(int a, int b) { return a + b; }"
+      ],
+      "externalLinks": [
+        "https://www.tutorialspoint.com/cplusplus/cpp_functions.htm"
+      ],
+      "quizzes": [
+        {
+          "question": "What is needed to define a function in C++?",
+          "options": [
+            "Return type, function name, body",
+            "Function name and body only",
+            "Return type and body only"
+          ],
+          "answer": "Return type, function name, body",
+          "_id": "68704c733731eb1c01c9a75f"
+        }
+      ],
+      "_id": "68704c733731eb1c01c9a75e"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Function Parameters and Arguments",
+      "content": "Parameters are placeholders in a function definition that accept inputs called arguments during function calls. Understand the difference between pass-by-value and pass-by-reference.",
+      "videoUrl": "http://video.com/functionParameters",
+      "codeExamples": [
+        "void printSum(int a, int b) { cout << a + b; }"
+      ],
+      "externalLinks": [
+        "https://www.geeksforgeeks.org/functions-in-c/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is the difference between pass-by-value and pass-by-reference?",
+          "options": [
+            "Pass-by-value copies the argument, pass-by-reference uses the same memory address",
+            "Both use the same memory address",
+            "Pass-by-reference copies the argument, pass-by-value uses the same memory address"
+          ],
+          "answer": "Pass-by-value copies the argument, pass-by-reference uses the same memory address",
+          "_id": "68704c733731eb1c01c9a761"
+        }
+      ],
+      "_id": "68704c733731eb1c01c9a760"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Return Values and Void Functions",
+      "content": "Discover how functions can return values to the caller using the return statement. Also, explore void functions, which perform tasks but do not return a value.",
+      "videoUrl": "http://video.com/returnAndVoidFunctions",
+      "codeExamples": [
+        "int square(int num) { return num * num; } // Function with return value",
+        "void printMessage() { cout << \"Hello!\"; } // Void function"
+      ],
+      "externalLinks": [
+        "https://www.javatpoint.com/cpp-functions"
+      ],
+      "quizzes": [
+        {
+          "question": "What does a void function do?",
+          "options": [
+            "Returns a value",
+            "Does nothing",
+            "Performs a task without returning a value"
+          ],
+          "answer": "Performs a task without returning a value",
+          "_id": "68704c733731eb1c01c9a763"
+        }
+      ],
+      "_id": "68704c733731eb1c01c9a762"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/advancedCppFunctions"
+  ],
+  "references": [
+    "https://www.learncpp.com/cpp-tutorial/introduction-to-functions/"
+  ]
 }
